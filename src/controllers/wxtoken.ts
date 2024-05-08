@@ -31,5 +31,4 @@ export default async function WXToken() :  Promise<string> {
   }
 
   return "";  
-  
 }  
