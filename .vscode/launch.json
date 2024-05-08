@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Debug",
+      "cwd": "${workspaceRoot}",
+      "runtimeExecutable": "nodemon",
+      "sourceMaps": true, 
+      "program": "${workspaceFolder}/src/app.ts",
+      "restart": true,
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "skipFiles": [
+        "<node_internals>", 
+        "${workspaceFolder}/node_modules/"
+      ]
+    }
+  ]
+}
+ 
