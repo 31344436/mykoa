@@ -51,7 +51,7 @@ export const appConfig: configInterface = {
   },
   wx: {
     AppID: "appid",
-    AppSecret: "secret"
+    AppSecret: "wxsecret"
   },
   sessionOption:{
     key: 'koa:session',  // 这里是cookie的名字
