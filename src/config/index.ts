@@ -50,8 +50,8 @@ export const appConfig: configInterface = {
     password: "zhangnu123"
   },
   wx: {
-    AppID: "wxba93fcd3fe8a95ef",
-    AppSecret: "d67b687f4e90489b3563fdd5d7b4fbd1"
+    AppID: "appid",
+    AppSecret: "secret"
   },
   sessionOption:{
     key: 'koa:session',  // 这里是cookie的名字
